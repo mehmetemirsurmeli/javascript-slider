@@ -1,4 +1,4 @@
-let slider_img = document.querySelector('.slider-img');
+let sliderImg = document.querySelector('.slider-img');
 let images = ['a.jpg', 'b.jpg', 'c.jpg', 'd.jpg', 'e.jpg'];
 let i = 0;
 
@@ -15,6 +15,6 @@ function next() {
 }
 
 function setImg() {
-    return slider_img.setAttribute('src', "images/" + images[i]);
+    return sliderImg.setAttribute('src', "images/" + images[i]);
 
 }
